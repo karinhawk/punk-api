@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+
+    &__label {
+        font-size: 20px;
+    }
+    &__button {
+        height: 10px;
+        width: 10px;
+    }
+}

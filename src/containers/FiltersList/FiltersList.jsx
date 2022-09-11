@@ -1,10 +1,16 @@
 import React from 'react'
+import "./FiltersList.scss"
 import FiltersItem from "../../components/FiltersItem/FiltersItem"
 
 const FiltersList = () => {
+
+    //logic
+
   return (
     <div>
-        <FiltersItem />
+        <section className='filter-section'>
+            <FiltersItem />
+        </section>
     </div>
   )
 }
