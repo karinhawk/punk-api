@@ -3,14 +3,14 @@ import "./Navbar.scss"
 import FiltersList from "../FiltersList/FiltersList"
 import SearchBox from "../../components/SearchBox/SearchBox"
 
-const Navbar = () => {
+const Navbar = ({beers, handleFilter, handleInput, searchTerm}) => {
   return (
     <div className='navbar'>
       <section className='navbar__filter'>
-        <FiltersList />
+        <FiltersList beers={beers} handleFilter={handleFilter}/>
       </section>
       <section className='navbar__search'>
-        <SearchBox />
+        <SearchBox handleInput={handleInput} searchTerm={searchTerm} beers={beers}/>
       </section>
     </div>
   )
