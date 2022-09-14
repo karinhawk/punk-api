@@ -9,7 +9,7 @@ const CardList = ({beersArr}) => {
         <section className='card-list'>
         {beersArr.map((beer) => {
         return (
-          <Card key={beer.id} name={beer.name} description={beer.description} image={beer.image_url} alcoholContent={beer.abv}/>
+          <Card key={beer.id} name={beer.name} description={beer.description} image={beer.image_url} alcoholContent={beer.abv} tagline={beer.tagline}/>
         )
       })
       }

@@ -4,9 +4,25 @@
 }
 
 .search {
-
+    margin: 20px;
     &__input {
-        height: 5vh;
+        margin: 5px;
+        height: 3vh;
         width: 15vw;
     }
+}
+
+@media screen and (max-width: 720px) {
+    .search {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__input {
+            width: 80vw;
+        }
+    }
+    
+   
 }

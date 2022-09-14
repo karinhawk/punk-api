@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.input {
+    transform: scale(200%);
+    margin: 20px;
+  }
+
+.input:checked {
+    transform: background-color(pink);
+   
+}

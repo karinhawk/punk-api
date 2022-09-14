@@ -6,13 +6,15 @@ const Checkbox = (props) => {
 
   return (
     <div>
+      <label className='input__label' htmlFor="checkbox">
       <input
+      className='input'
         type="checkbox"
         id={id}
         onChange={handleFilter}
         onClick={handleCheck}
-      />
-      <label htmlFor="checkbox">{label}</label>
+      />{label}
+      </label>
     </div>
   )
 }

@@ -4,15 +4,17 @@
 }
 
 .card {
-    height: 60vh;
-    width: 30vw;
-    border: 1px solid black;
+    height: 65vh;
+    width: 20vw;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(15, 80, 154, 0.2);
     margin: 15px;
-    padding: 5px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    background-color: rgb(244, 245, 247);
 
     &__image {
         height: 40vh;
@@ -24,9 +26,23 @@
     }
     &__text {
         overflow: scroll;
-        padding: 10px;
+        padding: 20px;
+        &::-webkit-scrollbar {
+            width: 5px; 
+          }
+        &::-webkit-scrollbar-thumb {
+            background: teal;
+          }
     }
     &__description {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .card {
+        width: 100vw;
+        margin: 20px 0px 20px 0px;
+        padding: 0px;
     }
 }
