@@ -1,22 +1,17 @@
 import React from 'react'
-import { useState } from 'react'
 import "./FiltersItem.scss"
+import Checkbox from '../Checkbox/Checkbox'
 
 const FiltersItem = (props) => {
 
-  const {beers, handleFilter} = props
+  const {handleFilter, handleCheck} = props
 
 
   return (
-    <div className="filter">
-        <label className='filter__label' htmlFor="">ABV less than 6%
-            <input id='abv' className="filter__button" type="radio" value="highABV" onChange={handleFilter}/></label>
-            <label className='filter__label' htmlFor="">Classics
-            <input id='classics' className="filter__button" type="radio" value="classics" onChange={handleFilter}/>
-            </label>
-        <label className='filter__label' htmlFor="">Acidity
-        <input id='acidity' className="filter__button" type="radio" value="acidic" onChange={handleFilter}/>
-        </label>
+    <div className='filter'>
+      <Checkbox label={"ABV > 6%"} id={"abv"} handleFilter={handleFilter} handleCheck={handleCheck} />
+      <Checkbox label={"Classics"} id={"classics"} handleFilter={handleFilter} handleCheck={handleCheck} />
+      <Checkbox label={"High Acidity"} id={"acidic"} handleFilter={handleFilter} handleCheck={handleCheck} />
     </div>
   )
 }
