@@ -1,10 +1,14 @@
 import React, { useEffect } from 'react'
 import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import "./App.scss"
-import logo from "./images/logo"
+
 
 import Navbar from './containers/Navbar/Navbar'
 import Main from "./containers/Main/Main"
+import Header from "./components/Header/Header"
+import BeerPage from './containers/BeerPage/BeerPage';
 
 const App = () => {
 
@@ -66,23 +70,21 @@ const App = () => {
 
 
   return (
+    <Router>
     <div className='app'>
-      <section className='app__heading'>
-        <img className='app__heading__logo' src={logo} alt="brewdog logo" />
-        <h1 className='app__heading__text'>Brewdog</h1>
-      </section>
+      <Header />
       <div className='app__content'>
-        <section className='app__nav'>
+        <div className='app__nav'>
           <Navbar beers={beers} handleFilter={handleFilter} handleInput={handleInput} searchTerm={searchTerm} />
-        </section>
-        <section className='app__main'>
-          {pending && <div>Loading...</div>}
-          {beers &&
-            <Main beersArr={beers}/>
-          }
-        </section>
+        </div>
+        {pending && <div className='loading'>Loading...</div>}
+        <Routes>
+        <Route path="/beer/:beerId" element={<BeerPage beersArr={beers}/>} />
+        <Route path="/" element={beers && <Main beersArr={beers}/>}/>
+        </Routes>
       </div>
     </div>
+    </Router>
   )
 }
 
@@ -90,5 +92,6 @@ export default App
 
 //sort by a-z and date brewed?
 //maybe route pages so can look at beer info :)
+//READ ME
 
 //THEN style
