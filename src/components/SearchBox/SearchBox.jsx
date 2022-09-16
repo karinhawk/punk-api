@@ -3,13 +3,13 @@ import "./SearchBox.scss"
 
 const SearchBox = (props) => {
 
-  const {handleInput, searchTerm, beers} = props;
+  const { handleInput, searchTerm } = props;
 
   return (
     <div className='search'>
       <label className='search__label'>Search a specific beer
         <input className="search__input" type="text" value={searchTerm} onInput={handleInput} />
-        </label>
+      </label>
     </div>
   )
 }

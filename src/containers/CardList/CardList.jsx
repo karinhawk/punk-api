@@ -1,7 +1,6 @@
 import React from 'react'
 import "./CardList.scss"
 import Card from "../../components/Card/Card"
-import { Link } from 'react-router-dom'
 
 const CardList = ({beersArr}) => {
 

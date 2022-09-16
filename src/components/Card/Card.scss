@@ -1,4 +1,4 @@
-@use "../../../variables" as *;
+@use "../../../variables"as *;
 
 * {
     margin: 0;
@@ -9,7 +9,7 @@
     height: 65vh;
     width: 22vw;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px 1px rgba(15, 80, 154, 0.2);
+    box-shadow: 2px 2px 2px 1px rgba(15, 131, 154, 0.2);
     margin: 15px;
     padding: 10px;
     display: flex;
@@ -21,6 +21,11 @@
     &__image {
         height: 33vh;
         width: auto;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+            opacity: 0.5;
+        }
     }
 
     &__content {

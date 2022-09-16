@@ -6,6 +6,7 @@
 - [Screenshots](#screenshots)
 - [Languages](#languages)
 - [Code of Note](#code_of_note)
+- [Bugs to fix](#bugs_to_fix)
 
 
 ## Brief <a name = "brief"></a>
@@ -40,4 +41,8 @@ An app built entirely in React which showcases different beers from Brewdog. Bui
 - search/filter
 - Routing
 
+## Bugs to fix <a name = "bugs_to_fix"></a>
+
+- Cannot refresh whilst on specific beer page (fix: could implement a state)
+- Applying search/filter whilst on specific beer page will break the page (fix: must implement toggle state for navbar)
 

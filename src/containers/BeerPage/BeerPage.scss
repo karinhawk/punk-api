@@ -11,7 +11,7 @@ a {
   }
   
 .beer-page {
-    width: 80vw;
+    width: 100vw;
     height: fit-content;
     background-color: $color-white;
     &__content {
@@ -62,7 +62,13 @@ a {
     margin: 10px;
     text-align: center;
     font-style: italic;
-    font-size: 2vw;
+    font-size: 1.5vw;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+        -webkit-transform: translateY(6px);
+        font-weight: 800;
+    }
 }
 
 @media screen and (max-width: 720px) {

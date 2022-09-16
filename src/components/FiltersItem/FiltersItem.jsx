@@ -4,8 +4,7 @@ import Checkbox from '../Checkbox/Checkbox'
 
 const FiltersItem = (props) => {
 
-  const {handleFilter, handleCheck} = props
-
+  const { handleFilter, handleCheck } = props
 
   return (
     <div className='filter'>
