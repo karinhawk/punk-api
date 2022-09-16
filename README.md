@@ -1,8 +1,9 @@
-# punk-api
+# punk-api project
 
 ## Table of Contents
 - [Brief](#brief)
 - [About](#about)
+- [Screenshots](#screenshots)
 - [Languages](#languages)
 - [Code of Note](#code_of_note)
 
@@ -13,15 +14,30 @@
 2. Repository on GitHub
 3. Use the Punk API (after using the data file first) (https://punkapi.com/)
 4. Search functionality
-5. Filter functionality (High ABV; )
+5. Filter functionality:    -High Alcohol (ABV value greater than 6%)
+                            -Classic Range (Was first brewed before 2010)
+                            -High Acidity (pH lower than 4) 
 4. Test where possible (RTL)
-
 
 ## About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+An app built entirely in React which showcases different beers from Brewdog. Built using PunkAPI, an open-source API of Brewdog beers. The list of beers has been mapped to the interface, and can be searched through via a searchbox, and filtered using checkboxes. The beers can be filtered by the classics range, high ABV content, and high acidity. Only one filter can be applied at a time. A beer can be clicked on to access more information about it through routing to a new page. The Card component and the FilterItem component have been tested using the React Testing Library.
+
+## Screenshots <a name = "screenshots"></a>
+
+
 
 ## Languages <a name = "languages"></a>
 
+- ReactJs (Rendering HTML components)
+- SCSS
+
 ## Code of Note <a name = "code_of_note"></a>
+
+- useState()
+- useEffect()
+- useParam()
+- search/filter
+- Routing
+
 

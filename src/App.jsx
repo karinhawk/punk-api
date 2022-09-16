@@ -12,10 +12,10 @@ import BeerPage from './containers/BeerPage/BeerPage';
 
 const App = () => {
 
-  const [beers, setBeers] = useState(null);
+  const [beers, setBeers] = useState([]);
   const [pending, setPending] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
-
+  const [filter, setFilter] = useState(null)
 
   let url = "https://api.punkapi.com/v2/beers?page=1&per_page=80";
 
@@ -62,8 +62,10 @@ const App = () => {
       const filteredBeers = beers.filter((beer) => {
         return beer.name.toLowerCase().includes(searchTerm);
       })
-      setBeers(filteredBeers);
-    } 
+      setFilter(filteredBeers);
+    } else {
+      setFilter(beers);
+    }
   }
 
 
@@ -80,7 +82,7 @@ const App = () => {
         {pending && <div className='loading'>Loading...</div>}
         <Routes>
         <Route path="/beer/:beerId" element={<BeerPage beersArr={beers}/>} />
-        <Route path="/" element={beers && <Main beersArr={beers}/>}/>
+        <Route path="/" element={beers && <Main beersArr={searchTerm.length < 1 ? beers : filter}/>}/>
         </Routes>
       </div>
     </div>
@@ -90,8 +92,9 @@ const App = () => {
 
 export default App
 
-//sort by a-z and date brewed?
-//maybe route pages so can look at beer info :)
-//READ ME
-
-//THEN style
+//more styling
+//hover on image?
+//hover on go back link
+//cue cards for presentation
+//deploy using special way
+//scss variables

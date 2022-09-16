@@ -11,7 +11,7 @@ const CardList = ({beersArr}) => {
         {beersArr.map((beer) => {
         return (
           <div>
-          <Card key={beer.id} name={beer.name} description={beer.description} image={beer.image_url} alcoholContent={beer.abv} tagline={beer.tagline} beerId={beer.id}/>
+          <Card key={beer.id} name={beer.name} image={beer.image_url} alcoholContent={beer.abv} tagline={beer.tagline} beerId={beer.id}/>
           </div>        
         )
       })

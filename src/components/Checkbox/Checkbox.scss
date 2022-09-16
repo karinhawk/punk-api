@@ -1,3 +1,5 @@
+@use "../../../variables" as *;
+
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +8,19 @@
 .input {
     transform: scale(200%);
     margin: 20px;
-  }
+    &__label {
+        font-family: $text-font;
+        font-size: 1.3vw;
+    }
+}
 
-.input:checked {
-    transform: background-color(pink);
-   
+@media screen and (max-width: 720px) {
+    .input {
+
+        &__label {
+            display: flex;
+            flex-direction: column;
+            font-size: 3.5vw;
+        }
+    }
 }

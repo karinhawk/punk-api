@@ -26,8 +26,8 @@ const BeerPage = (props) => {
                 <h3 className="beer-page__tagline">{chosenBeer.tagline}</h3>
                 <h3 className="beer-page__abv">{`${chosenBeer.abv}% abv`}</h3>
                 <div className="beer-page__text">
-                    <p className="beer-page__description">{chosenBeer.description}</p>
                     <p className='beer-page__info'>{`${chosenBeer.name} is a ${chosenBeer.abv}% IPA first brewed on ${chosenBeer.first_brewed} which pairs well with ${foodList}.`}</p>
+                    <p className="beer-page__description">{chosenBeer.description}</p>
                 </div>
             </div>
         </div>

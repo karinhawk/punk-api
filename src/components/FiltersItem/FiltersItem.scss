@@ -1,9 +1,12 @@
+@use "../../../variables" as *;
+
 * {
     margin: 0;
     padding: 0;
 }
 
 .filter {
+    width: 18vw;
     display: flex;
     flex-direction: column;
 
@@ -18,7 +21,9 @@
 
 @media screen and (max-width: 720px) {
     .filter {
+        width: 95vw;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
     }
 }
