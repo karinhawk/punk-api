@@ -18,8 +18,8 @@
 3. Use the Punk API (after using the data file first) (https://punkapi.com/)
 4. Search functionality
 5. Filter functionality:    -High Alcohol (ABV value greater than 6%)
-                            -Classic Range (Was first brewed before 2010)
-                            -High Acidity (pH lower than 4) 
+                            ; Classic Range (Was first brewed before 2010)
+                            ; High Acidity (pH lower than 4) 
 4. Test where possible (RTL)
 
 ## About <a name = "about"></a>
@@ -49,5 +49,4 @@ An app built entirely in React which showcases different beers from Brewdog. Bui
 ## Bugs to fix <a name = "bugs_to_fix"></a>
 
 - Cannot refresh whilst on specific beer page (fix: could implement a state)
-- Applying search/filter whilst on specific beer page will break the page (fix: must implement toggle state for navbar)
 

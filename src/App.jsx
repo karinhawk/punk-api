@@ -75,9 +75,6 @@ const App = () => {
       <div className='app'>
         <Header />
         <div className='app__content'>
-          <div className='app__nav'>
-            <Navbar beers={beers} handleFilter={handleFilter} handleInput={handleInput} searchTerm={searchTerm} />
-          </div>
           {pending && <div className='loading'>Loading...</div>}
           <Routes>
             <Route path="/beer/:beerId" element={<BeerPage beersArr={beers} />} />

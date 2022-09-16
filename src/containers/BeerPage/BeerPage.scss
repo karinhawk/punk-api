@@ -8,12 +8,13 @@
 a {
     color: $color-black;
     text-decoration: none;
-  }
-  
+}
+
 .beer-page {
     width: 100vw;
     height: fit-content;
     background-color: $color-white;
+
     &__content {
         margin: 20px;
         padding: 30px;
@@ -22,35 +23,42 @@ a {
         align-items: center;
         justify-content: space-evenly;
     }
+
     &__image {
         height: 40vh;
         width: auto;
     }
+
     &__heading {
         font-size: 5vw;
         color: $color-black;
     }
+
     &__tagline {
         font-family: $text-font;
         font-size: 3vw;
         color: $color-black;
     }
+
     &__abv {
         font-family: $text-font;
         font-size: 3vw;
         color: $color-black;
     }
+
     &__text {
         font-family: $text-font;
         font-size: 2vw;
         padding: 50px;
         color: $color-black;
     }
+
     &__description {
         font-family: $text-font;
         margin: 20px;
         color: $color-black;
     }
+
     &__info {
         font-family: $text-font;
         margin: 20px;
@@ -74,10 +82,15 @@ a {
 @media screen and (max-width: 720px) {
     .beer-page {
         width: 100vw;
+
         &__text {
             padding: 0;
             margin: 0;
             font-size: 4vw;
         }
+    }
+
+    .back {
+        font-size: 3vw;
     }
 }
