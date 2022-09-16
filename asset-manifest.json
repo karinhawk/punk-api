@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/karinhawk/punk-api/static/css/main.6578a66c.css",
-    "main.js": "/karinhawk/punk-api/static/js/main.676caaef.js",
+    "main.js": "/karinhawk/punk-api/static/js/main.86a6f920.js",
     "static/js/787.ae7c3095.chunk.js": "/karinhawk/punk-api/static/js/787.ae7c3095.chunk.js",
     "static/media/logo": "/karinhawk/punk-api/static/media/logo.4f6adb92856da7f722ac",
     "index.html": "/karinhawk/punk-api/index.html",
     "main.6578a66c.css.map": "/karinhawk/punk-api/static/css/main.6578a66c.css.map",
-    "main.676caaef.js.map": "/karinhawk/punk-api/static/js/main.676caaef.js.map",
+    "main.86a6f920.js.map": "/karinhawk/punk-api/static/js/main.86a6f920.js.map",
     "787.ae7c3095.chunk.js.map": "/karinhawk/punk-api/static/js/787.ae7c3095.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6578a66c.css",
-    "static/js/main.676caaef.js"
+    "static/js/main.86a6f920.js"
   ]
 }
