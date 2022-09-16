@@ -78,7 +78,7 @@ const App = () => {
           {pending && <div className='loading'>Loading...</div>}
           <Routes>
             <Route path="/beer/:beerId" element={<BeerPage beersArr={beers} />} />
-            <Route path="/" element={beers && <Main beersArr={searchTerm.length < 1 ? beers : filter} />} />
+            <Route path="/" element={beers && <Main beersArr={searchTerm.length < 1 ? beers : filter} beers={beers} handleFilter={handleFilter} handleInput={handleInput} searchTerm={searchTerm}/>} />
           </Routes>
         </div>
       </div>
