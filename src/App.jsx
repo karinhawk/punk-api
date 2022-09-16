@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 import "./App.scss"
 
@@ -71,6 +71,7 @@ const App = () => {
   }
 
   return (
+    <Router>
       <div className='app'>
         <Header />
         <div className='app__content'>
@@ -81,6 +82,7 @@ const App = () => {
           </Routes>
         </div>
       </div>
+      </Router>
   )
 }
 
