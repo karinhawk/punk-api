@@ -28,6 +28,7 @@
 @media screen and (max-width: 720px) {
 
     .app {
+        width: 100vw;
         &__heading {
             flex-direction: column;
             &__text {

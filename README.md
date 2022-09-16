@@ -31,7 +31,6 @@ An app built entirely in React which showcases different beers from Brewdog. Bui
 <img src="./src/images/screenshot1.png" height="150px"/>
 <img src="./src/images/screenshot2.png" height="150px"/>
 <img src="./src/images/screenshot3.png" height="150px"/>
-<img src="./src/images/screenshot4.png" height="150px"/>
 
 ## Languages <a name = "languages"></a>
 

@@ -4,7 +4,6 @@ import { Routes, Route } from "react-router-dom";
 
 import "./App.scss"
 
-import Navbar from './containers/Navbar/Navbar'
 import Main from "./containers/Main/Main"
 import Header from "./components/Header/Header"
 import BeerPage from './containers/BeerPage/BeerPage';
