@@ -1,6 +1,6 @@
 {
   "name": "punk-api",
-  "homepage": "https://github.com/karinhawk/game-project",
+  "homepage": "https://github.com/karinhawk/punk-api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
