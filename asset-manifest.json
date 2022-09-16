@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/karinhawk/game-project/static/css/main.6578a66c.css",
-    "main.js": "/karinhawk/game-project/static/js/main.6daa05e8.js",
+    "main.js": "/karinhawk/game-project/static/js/main.7b29b86f.js",
     "static/js/787.ae7c3095.chunk.js": "/karinhawk/game-project/static/js/787.ae7c3095.chunk.js",
     "static/media/logo": "/karinhawk/game-project/static/media/logo.4f6adb92856da7f722ac",
     "index.html": "/karinhawk/game-project/index.html",
     "main.6578a66c.css.map": "/karinhawk/game-project/static/css/main.6578a66c.css.map",
-    "main.6daa05e8.js.map": "/karinhawk/game-project/static/js/main.6daa05e8.js.map",
+    "main.7b29b86f.js.map": "/karinhawk/game-project/static/js/main.7b29b86f.js.map",
     "787.ae7c3095.chunk.js.map": "/karinhawk/game-project/static/js/787.ae7c3095.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6578a66c.css",
-    "static/js/main.6daa05e8.js"
+    "static/js/main.7b29b86f.js"
   ]
 }
