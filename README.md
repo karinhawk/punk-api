@@ -1,5 +1,7 @@
 # punk-api project
 
+<img src="./src/images/screenshot5.png" height="150px"/>
+
 ## Table of Contents
 - [Brief](#brief)
 - [About](#about)
@@ -26,7 +28,10 @@ An app built entirely in React which showcases different beers from Brewdog. Bui
 
 ## Screenshots <a name = "screenshots"></a>
 
-
+<img src="./src/images/screenshot1.png" height="150px"/>
+<img src="./src/images/screenshot2.png" height="150px"/>
+<img src="./src/images/screenshot3.png" height="150px"/>
+<img src="./src/images/screenshot4.png" height="150px"/>
 
 ## Languages <a name = "languages"></a>
 
