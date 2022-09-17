@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/karinhawk/punk-api/static/css/main.44a1c17f.css",
-    "main.js": "/karinhawk/punk-api/static/js/main.119771d5.js",
-    "static/js/787.ae7c3095.chunk.js": "/karinhawk/punk-api/static/js/787.ae7c3095.chunk.js",
-    "static/media/logo": "/karinhawk/punk-api/static/media/logo.4f6adb92856da7f722ac",
-    "index.html": "/karinhawk/punk-api/index.html",
-    "main.44a1c17f.css.map": "/karinhawk/punk-api/static/css/main.44a1c17f.css.map",
-    "main.119771d5.js.map": "/karinhawk/punk-api/static/js/main.119771d5.js.map",
-    "787.ae7c3095.chunk.js.map": "/karinhawk/punk-api/static/js/787.ae7c3095.chunk.js.map"
+    "main.css": "/punk-api/static/css/main.44a1c17f.css",
+    "main.js": "/punk-api/static/js/main.5a05b861.js",
+    "static/js/787.ae7c3095.chunk.js": "/punk-api/static/js/787.ae7c3095.chunk.js",
+    "static/media/logo": "/punk-api/static/media/logo.4f6adb92856da7f722ac",
+    "index.html": "/punk-api/index.html",
+    "main.44a1c17f.css.map": "/punk-api/static/css/main.44a1c17f.css.map",
+    "main.5a05b861.js.map": "/punk-api/static/js/main.5a05b861.js.map",
+    "787.ae7c3095.chunk.js.map": "/punk-api/static/js/787.ae7c3095.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44a1c17f.css",
-    "static/js/main.119771d5.js"
+    "static/js/main.5a05b861.js"
   ]
 }
